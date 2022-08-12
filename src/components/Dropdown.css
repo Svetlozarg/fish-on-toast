@@ -1,0 +1,54 @@
+.dropdown img {
+  width: 300px;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.dropdown .dropdown-icon {
+  position: absolute;
+  top: 1.2rem;
+  right: 1.5rem;
+  background-color: transparent;
+  font-size: 2rem;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+}
+
+.dropdown .dropdown-wrapper .dropdown-menu {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(4, 80px);
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.dropdown .dropdown-wrapper .dropdown-menu a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 28px;
+  text-decoration: none;
+  list-style: none;
+  cursor: pointer;
+  transition: 250ms ease-in-out;
+}
+
+.dropdown .dropdown-wrapper .dropdown-social {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  text-align: center;
+} 
+
+.dropdown .dropdown-wrapper .dropdown-social a {
+  color: #fff;
+  font-size: 38px;
+  margin: 0 10px;
+}

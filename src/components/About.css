@@ -1,0 +1,42 @@
+.about {
+  width: 100%;
+  height: auto;
+  padding: 10rem 10px;
+  background-color: #102a3c;
+  overflow: hidden;
+}
+
+.about .about-wrapper {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.about .about-wrapper h3 {
+  width: 400px;
+  text-align: center;
+  margin: 0 auto 1rem auto;
+  border-bottom: 2px solid #fff;
+  padding-bottom: 10px;
+  font-size: 30px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+@media (max-width: 420px) {
+  .about .about-wrapper h3 {
+    font-size: 26px;
+    width: 300px;
+  }
+}
+
+.about .about-wrapper p {
+  font-size: 18px;
+  text-align: center;
+  margin: 10px 0;
+  color: #fff;
+}

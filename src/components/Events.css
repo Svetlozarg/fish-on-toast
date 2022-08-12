@@ -1,0 +1,111 @@
+.events {
+  width: 100%;
+  height: auto;
+  background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(https://ik.imagekit.io/obelussoft/events-bg_F26QMzBgFjt.png?updatedAt=1640108554209);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 20px;
+  overflow: hidden;
+}
+
+.events .events-wrapper {
+  max-width: 1280px;
+  width: 100%;
+  color: #fff;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+}
+
+@media (max-width: 520px) {
+  .events .events-wrapper img {
+    object-fit: contain;
+    max-width: 100%;
+  }
+}
+
+.events .events-wrapper h4 {
+  color: #40fe9f;
+  font-size: 26px;
+  border-bottom: 2px solid #fff;
+  padding-bottom: 5px;
+  font-weight: 800;
+  margin: 1rem;
+}
+
+.events .events-wrapper p {
+  font-size: 20px;
+  margin: .5rem 0;
+}
+
+@media (max-width: 780px) {
+  .events .events-wrapper p {
+    font-size: 16px;
+  }
+}
+
+.events .events-wrapper .event-place {
+  color: #27aae1;
+  font-weight: 800;
+}
+
+.events .events-wrapper .event-info-p {
+  text-align: justify;
+}
+
+.events .events-wrapper .event-center {
+  text-align: center;
+}
+
+.events .events-wrapper button {
+  width: 230px;
+  height: 50px;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 800;
+  outline: none;
+  color: #fff;
+  background-color: #102a3c;
+  border: 4px solid #40fe9f;
+  margin: 3rem 0 1rem 0;
+  cursor: pointer;
+  transition: 250ms ease-in-out;
+}
+
+.events .events-wrapper button:hover {
+  transform: scale(1.2);
+}
+
+.events .events-wrapper .event-sponsors {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 3rem;
+}
+
+.events .events-wrapper .event-sponsors img {
+  width: 200px;
+  height: auto;
+}
+
+@media (max-width: 1100px) {
+  .events .events-wrapper .event-sponsors img {
+    width: 150px;
+  }
+}
+
+@media (max-width: 535px) {
+  .events .events-wrapper .event-sponsors img {
+    width: 100px;
+  }
+}
