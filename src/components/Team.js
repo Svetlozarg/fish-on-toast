@@ -15,6 +15,7 @@ import vlad from "../images/VladProfile.jpg";
 import angelina from "../images/AngelinaProfile.jpg";
 import isabel from "../images/IsabelProfile.jpg";
 import jamie from "../images/JamieProfile.jpg";
+import PastCommittee from "../pages/PastCommittee";
 
 const Team = () => {
   return (
@@ -129,6 +130,11 @@ const Team = () => {
             </div>
           </div>
         </div>
+
+        <a href="past-committee" rel="noreferrer">
+          <button>Past Committee</button>
+        </a>
+        
       </div>
     </section>
   );
