@@ -15,10 +15,8 @@ import sam from "../images/SamProfile.jpg";
 import julius from "../images/JuliusProfile.jpg";
 import jasmin from "../images/JasminProfile.jpg";
 import nikhil from "../images/NikhilProfile.jpg";
-import chelsea from "../images/ChelseaProfile.jpeg";
 import denitsa from "../images/DenitsaProfile.jpg";
 import vlad from "../images/VladProfile.jpg";
-import angelina from "../images/AngelinaProfile.jpg";
 import isabel from "../images/IsabelProfile.jpg";
 import jamie from "../images/JamieProfile.jpg";
 

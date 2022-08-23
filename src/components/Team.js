@@ -3,19 +3,22 @@ import React from "react";
 import "./Team.css";
 
 import radu from "../images/RaduProfile.jpg";
-import tom from "../images/TomProfile.png";
 import ibi from "../images/IbiProfile.jpg";
-import sam from "../images/SamProfile.jpg";
 import julius from "../images/JuliusProfile.jpg";
-import jasmin from "../images/JasminProfile.jpg";
-import nikhil from "../images/NikhilProfile.jpg";
-import chelsea from "../images/ChelseaProfile.jpeg";
 import denitsa from "../images/DenitsaProfile.jpg";
 import vlad from "../images/VladProfile.jpg";
-import angelina from "../images/AngelinaProfile.jpg";
-import isabel from "../images/IsabelProfile.jpg";
-import jamie from "../images/JamieProfile.jpg";
 import PastCommittee from "../pages/PastCommittee";
+
+import adam from "../images/AdamProfile.jpg";
+import iona from "../images/IonaProfile.jpg";
+import divisha from "../images/DivishaProfile.jpg";
+import benedetta from "../images/BenedettaProfile.jpeg";
+import miro from "../images/MiroProfile.jpg";
+import roman from "../images/RomanProfile.jpg";
+// import andres from "../images/AndresProfile.jpg";
+// import tomas from "../images/TomasProfile.jpg";
+// import bendek from "../images/BenedekProfile.jpg";
+
 
 const Team = () => {
   return (
@@ -25,45 +28,65 @@ const Team = () => {
         {/* Main Team */}
         <div className="main-team">
           <div className="card">
-            <img src={radu} alt="" />
-            <h5>Radu Popescu</h5>
-            <p>President</p>
+            <img className="small-img" src={radu} alt="" />
+            <h5 className="small-name">Radu Popescu</h5>
+            <p className="small-description">President</p>
           </div>
 
           <div className="card">
-            <img src={tom} alt="" />
-            <h5>Tom Phipps</h5>
-            <p>Vice President</p>
-          </div>
-
-          <div className="card">
-            <img src={ibi} alt="" />
-            <h5>Ibi Szenes</h5>
-            <p>Head of Sponsorship</p>
-          </div>
-        </div>
-
-        {/* Events Coordinator */}
-        <p className="subteam-heading">Events Coordinators</p>
-        <div className="main-team">
-          <div className="card">
-            <img className="small-img" src={sam} alt="" />
-            <h5 className="small-name">Sam Topping</h5>
+            <img className="small-img" src={adam} alt="" />
+            <h5 className="small-name">Adam Orme</h5>
+            <p className="small-description">Vice President</p>
           </div>
 
           <div className="card">
             <img className="small-img" src={julius} alt="" />
             <h5 className="small-name">Julius Maisch</h5>
+            <p className="small-description">Head of Finance</p>
           </div>
 
           <div className="card">
-            <img className="small-img" src={jasmin} alt="" />
-            <h5 className="small-name">Jasmin Sealy</h5>
+            <img className="small-img" src={ibi} alt="" />
+            <h5 className="small-name">Ibi Szenes</h5>
+            <p className="small-description">Head of Sponsorship</p>
+          </div>
+        </div>
+
+        {/* Events Coordinator */}
+        <p className="subteam-heading">Events team</p>
+        <div className="main-team">
+          <div className="card">
+            <img className="small-img" src={radu} alt="" />
+            <h5 className="small-name">Benedek Safar</h5>
+            <p className="small-description"> Head of Events</p>
           </div>
 
           <div className="card">
-            <img className="small-img" src={nikhil} alt="" />
-            <h5 className="small-name">Nikhil Kumar</h5>
+            <img className="small-img" src={radu} alt="" />
+            <h5 className="small-name">Andras Vekassy</h5>
+            <p className="small-description"> Events Manager</p>
+
+          </div>
+
+          <div className="card">
+            <img className="small-img" src={iona} alt="" />
+            <h5 className="small-name">Iona Bateman</h5>
+            <p className="small-description"> Events</p>
+
+          </div>
+
+          <div className="card">
+            <img className="small-img" src={roman} alt="" />
+            <h5 className="small-name">Roman Kim</h5>
+            <p className="small-description"> Events</p>
+
+          </div>
+          
+          <div className="card">
+            <img className="small-img" src={miro} alt="" />
+            <h5 className="small-name">Miro Nikolic</h5>
+            <p className="small-description">Social Events</p>
+
           </div>
         </div>
 
@@ -71,13 +94,24 @@ const Team = () => {
         <p className="subteam-heading">Marketing Designers</p>
         <div className="main-team left-align">
           <div className="card">
-            <img className="small-img" src={chelsea} alt="" />
-            <h5 className="small-name">Chelsea Davis</h5>
+            <img className="small-img" src={benedetta} alt="" />
+            <h5 className="small-name">Benedetta Harris</h5>
+            <p className="small-description"> Head of Communication</p>
+
           </div>
 
           <div className="card">
             <img className="small-img" src={denitsa} alt="" />
             <h5 className="small-name">Denitsa Hadzhiyska</h5>
+            <p className="small-description"> Head of Marketing</p>
+
+          </div>
+          
+          <div className="card">
+            <img className="small-img" src={divisha} alt="" />
+            <h5 className="small-name">Divisha Ramlochu</h5>
+            <p className="small-description"> Text Editor</p>
+
           </div>
         </div>
 
@@ -87,54 +121,21 @@ const Team = () => {
             <p className="subteam-heading">Tech Star</p>
             <div className="main-team left-align">
               <div className="card">
-                <img className="small-img" src={vlad} alt="" />
-                <h5 className="small-name">Vlad Hilea</h5>
+                <img className="small-img" src={radu} alt="" />
+                <h5 className="small-name">Tomas Kopunec</h5>
+                <p className="small-description"> Tech Star</p>
+
               </div>
             </div>
           </div>
 
-          <div className="main-team-div">
-            {/* Faculty of Social Sciences */}
-            <p className="subteam-heading">Faculty of Social Sciences</p>
-            <div className="main-team left-align">
-              <div className="card">
-                <img className="small-img" src={jamie} alt="" />
-                <h5 className="small-name">Jamie Croucher</h5>
-              </div>
-            </div>
-          </div>
+        
         </div>
 
-        <div className="main-team-two">
-          <div className="main-team-div">
-            {/* Faculty of Engineering and Physical Sciences */}
-            <p className="subteam-heading">
-              Faculty of Engineering and Physical Sciences
-            </p>
-            <div className="main-team left-align">
-              <div className="card">
-                <img className="small-img" src={isabel} alt="" />
-                <h5 className="small-name">Isabel Rose</h5>
-              </div>
-            </div>
-          </div>
-
-          <div className="main-team-div">
-            {/* Faculty of Arts and Humanities */}
-            <p className="subteam-heading">Faculty of Arts and Humanities</p>
-            <div className="main-team left-align">
-              <div className="card">
-                <img className="small-img" src={angelina} alt="" />
-                <h5 className="small-name">Angelina Der Arakelian</h5>
-              </div>
-            </div>
-          </div>
-        </div>
-
+       
         <a href="past-committee" rel="noreferrer">
           <button>Past Committee</button>
         </a>
-        
       </div>
     </section>
   );
