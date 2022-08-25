@@ -1,0 +1,100 @@
+.resources {
+    width: 100%;
+    height: auto;
+    background-color: #102a3c;
+    padding: 4rem 10px;
+    overflow: hidden;
+  }
+
+  .resources .resources-wrapper {
+    max-width: 1280px;
+    width: 100%;
+    padding-top: 12px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    overflow: hidden;
+  }
+  
+  .resources .resources-wrapper h4 {
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto 1rem auto;
+    padding-top: 15px;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 10px;
+    font-size: 30px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.main-resources {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .left-align {
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 5rem;
+  }
+  
+  @media (max-width: 750px) {
+    .left-align {
+      justify-content: center;
+      align-items: center;
+      margin-left: 0;
+    }
+  }
+  
+  .main-resources .card {
+    margin: 1rem;
+    max-width: 25%;
+  }
+
+  .main-resources .card h5 {
+    font-size: 22px;
+    margin-left: 1rem;
+    margin-top: .5rem;
+    color: #fff;
+  }
+  
+  .main-resources .card p {
+    font-size: 18px;
+    margin-left: 1rem;
+    color: #fff;
+  }
+
+  
+  .main-resources .small-name {
+    text-align: center;
+    margin: .5rem auto 0 auto !important;
+  }
+
+  .main-resources .small-description {
+    text-align: center;
+  }
+
+  .resources .resources-wrapper  button {
+    width: 180px;
+    height: 30px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 800;
+    outline: none;
+    color: #fff;
+    background-color: #102a3c;
+    border: 4px solid #40fe9f;
+    margin: 3rem 0 1rem 0;
+    cursor: pointer;
+    transition: 250ms ease-in-out;
+  }
+  
+  .resources .resources-wrapper  button:hover {
+    transform: scale(1.1);
+  }

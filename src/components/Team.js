@@ -6,7 +6,6 @@ import radu from "../images/RaduProfile.jpg";
 import ibi from "../images/IbiProfile.jpg";
 import julius from "../images/JuliusProfile.jpg";
 import denitsa from "../images/DenitsaProfile.jpg";
-import vlad from "../images/VladProfile.jpg";
 import PastCommittee from "../pages/PastCommittee";
 
 import adam from "../images/AdamProfile.jpg";
@@ -15,8 +14,8 @@ import divisha from "../images/DivishaProfile.jpg";
 import benedetta from "../images/BenedettaProfile.jpeg";
 import miro from "../images/MiroProfile.jpg";
 import roman from "../images/RomanProfile.jpg";
-// import andres from "../images/AndresProfile.jpg";
-// import tomas from "../images/TomasProfile.jpg";
+import andras from "../images/AndrasProfile.jpg";
+import tomas from "../images/TomasProfile.PNG";
 // import bendek from "../images/BenedekProfile.jpg";
 
 
@@ -62,7 +61,7 @@ const Team = () => {
           </div>
 
           <div className="card">
-            <img className="small-img" src={radu} alt="" />
+            <img className="small-img" src={andras} alt="" />
             <h5 className="small-name">Andras Vekassy</h5>
             <p className="small-description"> Events Manager</p>
 
@@ -121,7 +120,7 @@ const Team = () => {
             <p className="subteam-heading">Tech Star</p>
             <div className="main-team left-align">
               <div className="card">
-                <img className="small-img" src={radu} alt="" />
+                <img className="small-img" src={tomas} alt="" />
                 <h5 className="small-name">Tomas Kopunec</h5>
                 <p className="small-description"> Tech Star</p>
 

@@ -39,7 +39,7 @@ const Navbar = ({ toggle }) => {
             <a href="/#team">Team</a>
           </li>
           <li>
-            <a href="/faq">Resources</a>
+            <a href="/resources">Resources</a>
           </li> 
           <li>
             <a href="/faq">FAQ</a>

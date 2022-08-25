@@ -4,8 +4,6 @@ import Navbar from "../components/Navbar";
 import Dropdown from "../components/Dropdown";
 import Footer from "../components/Footer";
 
-import logo from "../images/logo-white.png";
-
 import "./PastCommittee.css";
 
 import radu from "../images/RaduProfile.jpg";
