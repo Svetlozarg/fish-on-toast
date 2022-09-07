@@ -4,6 +4,7 @@ import Navbar from "../components/Navbar";
 import Dropdown from "../components/Dropdown";
 import Footer from "../components/Footer";
 
+import logo from "../images/logo-white.png";
 import "./Resources.css";
 
 const Resources = () => {
@@ -19,7 +20,12 @@ const Resources = () => {
       <Dropdown toggle={toggle} isOpen={isOpen} />
       <section className="resources">
         <div className="resources-wrapper">
-          <h4> Resources</h4>
+          <div className="resources-bg">
+          <img src={logo} alt="" />
+
+             <h2> Resources</h2>
+          </div>
+         
           <div className="main-resources">
             <div className="card">
               <h5> Ideation</h5>

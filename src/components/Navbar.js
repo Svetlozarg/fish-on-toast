@@ -38,9 +38,9 @@ const Navbar = ({ toggle }) => {
           <li>
             <a href="/#team">Team</a>
           </li>
-          <li>
+          {/* <li>
             <a href="/resources">Resources</a>
-          </li> 
+          </li>  */}
           <li>
             <a href="/faq">FAQ</a>
           </li>
