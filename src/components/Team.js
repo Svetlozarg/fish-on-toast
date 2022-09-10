@@ -15,7 +15,7 @@ import benedetta from "../images/BenedettaProfile.jpeg";
 import miro from "../images/MiroProfile.jpg";
 import roman from "../images/RomanProfile.jpg";
 import andras from "../images/AndrasProfile.jpg";
-import tomas from "../images/TomasProfile.PNG";
+import tomas from "../images/TomasProfile.jpg";
 import benedek from "../images/BenedekProfile.jpg";
 
 const Team = () => {
