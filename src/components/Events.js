@@ -9,6 +9,7 @@ import enactusLogo from "../images/enactus.png";
 import uosLogo from "../images/uos-logo.png";
 import socialLogo from "../images/social-logo.png";
 import womenLogo from "../images/women-logo.png";
+import dsoclogo from "../images/soton-dSoc-full-white.png"
 
 const Events = () => {
   const [eventObj, setEventObj] = useState({});
@@ -41,10 +42,11 @@ const Events = () => {
           <button>Grab your ticket</button>
         </a>
         <div className="event-sponsors">
-          <img src={bussocLogo} alt="" />
+          {/* <img src={bussocLogo} alt="" /> */}
           <img src={enactusLogo} alt="" />
-          <img src={uosLogo} alt="" />
-          <img src={socialLogo} alt="" />
+          <img src={dsoclogo} alt="" />
+          {/* <img src={uosLogo} alt="" /> */}
+          {/* <img src={socialLogo} alt="" /> */}
           <img src={womenLogo} alt="" />
         </div>
         <div id="team"></div>

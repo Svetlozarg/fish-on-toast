@@ -56,7 +56,7 @@ const Navbar = ({ toggle }) => {
           <i className="fab fa-facebook"></i>
         </a>
         <a
-          href="https://www.instagram.com/fish_on_toast/"
+          href="https://www.instagram.com/fishontoast.co.uk/"
           target="_blank"
           rel="noreferrer"
         >
