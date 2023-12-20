@@ -2,7 +2,7 @@ import React from "react";
 
 import "./Team.css";
 
-import radu from "../images/RaduProfile.jpg";
+import benedetta from "../images/BenedettaProfile.jpeg";
 import ibi from "../images/IbiProfile.jpg";
 import julius from "../images/JuliusProfile.jpg";
 import denitsa from "../images/DenitsaProfile.jpg";
@@ -27,7 +27,7 @@ const Team = () => {
         <div className="main-team">
           <div className="card">
             <img className="small-img" src={radu} alt="" />
-            <h5 className="small-name">Radu Popescu</h5>
+            <h5 className="small-name">Benedetta Harris</h5>
             <p className="small-description">President</p>
           </div>
 
