@@ -26,8 +26,8 @@ const Team = () => {
         {/* Main Team */}
         <div className="main-team">
           <div className="card">
-            <img className="small-img" src={radu} alt="" />
-            <h5 className="small-name">Radu Popescu</h5>
+            <img className="small-img" src={benedetta} alt="" />
+            <h5 className="small-name">Benedetta Harris</h5>
             <p className="small-description">President</p>
           </div>
 
