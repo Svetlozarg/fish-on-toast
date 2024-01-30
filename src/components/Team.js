@@ -61,13 +61,13 @@ const Team = () => {
           <div className="card">
             <img className="small-img" src={Parth} alt="" />
             <h5 className="small-name">Parth Chutani</h5>
-            <p className="small-description"> Head of Technology</p>
+            <p className="small-description">Head of Technology</p>
           </div>
 
           <div className="card">
             <img className="small-img" src={Jenna} alt="" />
             <h5 className="small-name">Jenna Lee</h5>
-            <p className="small-description"> Head of Marketing</p>
+            <p className="small-description">Head of Marketing</p>
           </div>
 
         //   <div className="card">
